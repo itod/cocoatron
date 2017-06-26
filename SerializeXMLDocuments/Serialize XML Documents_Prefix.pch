@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Serialize XML Documents' target in the 'Serialize XML Documents' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

@@ -1,0 +1,180 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25DEFBF508AD624500D60C5E /* definition.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25DEFBF408AD624500D60C5E /* definition.plist */; };
+		25DEFC0308AD62B300D60C5E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25DEFC0208AD62B300D60C5E /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25DEFBF408AD624500D60C5E /* definition.plist */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist; path = definition.plist; sourceTree = "<group>"; };
+		25DEFC0008AD62A300D60C5E /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		65081C3B067A9A0C006247A1 /* Cocoatron.definition */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cocoatron.definition; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* Automator Action */ = {
+			isa = PBXGroup;
+			children = (
+				089C167CFE841241C02AAC07 /* Resources */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = "Automator Action";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				25DEFBF408AD624500D60C5E /* definition.plist */,
+				25DEFC0208AD62B300D60C5E /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65081C3B067A9A0C006247A1 /* Cocoatron.definition */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65081C2D067A9A0C006247A1 /* Cocoatron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E77D0090895B1C5005CF7E3 /* Build configuration list for PBXNativeTarget "Cocoatron" */;
+			buildPhases = (
+				65081C31067A9A0C006247A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cocoatron;
+			productInstallPath = "$(USER_LIBRARY_DIR)/Automator";
+			productName = "Automator Action";
+			productReference = 65081C3B067A9A0C006247A1 /* Cocoatron.definition */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4E77D00D0895B1C5005CF7E3 /* Build configuration list for PBXProject "Cocoatron" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* Automator Action */;
+			projectDirPath = "";
+			targets = (
+				65081C2D067A9A0C006247A1 /* Cocoatron */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65081C31067A9A0C006247A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DEFBF508AD624500D60C5E /* definition.plist in Resources */,
+				25DEFC0308AD62B300D60C5E /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25DEFC0208AD62B300D60C5E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25DEFC0008AD62A300D60C5E /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E77D00A0895B1C5005CF7E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Automator";
+				PRODUCT_NAME = Cocoatron;
+				WRAPPER_EXTENSION = definition;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		4E77D00B0895B1C5005CF7E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Automator";
+				OTHER_OSAFLAGS = "-x";
+				PRODUCT_NAME = Cocoatron;
+				WRAPPER_EXTENSION = definition;
+			};
+			name = Release;
+		};
+		4E77D00E0895B1C5005CF7E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		4E77D00F0895B1C5005CF7E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E77D0090895B1C5005CF7E3 /* Build configuration list for PBXNativeTarget "Cocoatron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E77D00A0895B1C5005CF7E3 /* Debug */,
+				4E77D00B0895B1C5005CF7E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E77D00D0895B1C5005CF7E3 /* Build configuration list for PBXProject "Cocoatron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E77D00E0895B1C5005CF7E3 /* Debug */,
+				4E77D00F0895B1C5005CF7E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

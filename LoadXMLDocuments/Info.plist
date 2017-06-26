@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMAccepts</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Optional</key>
+		<false/>
+		<key>Types</key>
+		<array>
+			<string>com.apple.cocoa.path</string>
+			<string>com.apple.cocoa.url</string>
+			<string>com.apple.cocoa.string</string>
+			<!--
+			<string>com.cocoatron.XMLInfoset</string>
+			<string>com.apple.applescript.url-object</string>
+			<string>com.apple.applescript.text-object</string>
+			<string>com.apple.applescript.object</string>
+			<string>com.apple.textedit.document-object</string>
+			-->
+		</array>
+	</dict>
+	<key>AMApplication</key>
+	<string>Cocoatron</string>
+	<key>AMCanShowSelectedItemsWhenRun</key>
+	<false/>
+	<key>AMCanShowWhenRun</key>
+	<true/>
+	<key>AMCategory</key>
+	<string>Developer</string>
+	<key>AMDefaultParameters</key>
+	<dict>
+		<key>defaultDTDAttrs</key>
+		<false/>
+		<key>loadDTD</key>
+		<false/>
+		<key>mergeCDATA</key>
+		<false/>
+		<key>substituteEntities</key>
+		<false/>
+	</dict>
+	<key>AMDescription</key>
+	<dict>
+		<key>AMDAlert</key>
+		<string></string>
+		<key>AMDInput</key>
+		<string>Local file paths or remote URLs.</string>
+		<key>AMDNote</key>
+		<string></string>
+		<key>AMDOptions</key>
+		<string>'Load DTD' will force parsing of any DTDs referenced via Doctypes. 'Default DTD Attributes' will force the parser to add default attribute values specified in parsed DTDs. 'Substitute Entities' replaces entity references. 'Merge CDATA' merges CDATA sections.</string>
+		<key>AMDRelatedActions</key>
+		<array>
+			<string>com.cocoatron.Automator.Serialize_XML_Documents</string>
+			<string>com.cocoatron.Automator.Query_XML_Documents</string>
+			<string>com.cocoatron.Automator.Validate_XML_Documents</string>
+			<string>com.cocoatron.Automator.Transform_XML_Documents</string>
+			<string>com.cocoatron.Automator.Process_XIncludes_of_XML_Documents</string>
+		</array>
+		<key>AMDRequires</key>
+		<string></string>
+		<key>AMDResult</key>
+		<string></string>
+		<key>AMDSummary</key>
+		<string>Loads XML Documents at input file paths or URLs.</string>
+	</dict>
+	<key>AMIconName</key>
+	<string>(* The name of the icon *)</string>
+	<key>AMKeywords</key>
+	<array>
+		<string>cocoatron</string>
+		<string>dtd</string>
+		<string>xproc</string>
+		<string>parse</string>
+		<string>libxml</string>
+		<string>xml</string>
+	</array>
+	<key>AMName</key>
+	<string>Load XML Documents</string>
+	<key>AMProvides</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Types</key>
+		<array>
+			<string>com.cocoatron.XMLInfoset</string>
+		</array>
+	</dict>
+	<key>AMRequiredResources</key>
+	<array/>
+	<key>AMWarning</key>
+	<dict>
+		<key>Action</key>
+		<string>(* Action name to be suggested to add prior to this action to make the task safer, e.g. com.apple.Automator.CopyFiles, goes here. *)</string>
+		<key>ApplyButton</key>
+		<string>(* Button label for user to add proposed Action, e.g. Add. *)</string>
+		<key>IgnoreButton</key>
+		<string>(* Button label for user not to add proposed Action, e.g. Don't Add. *)</string>
+		<key>Level</key>
+		<integer>0</integer>
+		<key>Message</key>
+		<string>(* Warning message presented to user goes here. *)</string>
+	</dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Load XML Documents version 1.0, Copyright (c) 2006, Todd Ditchendorf.</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.cocoatron.Automator.Load_XML_Documents</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>NSPrincipalClass</key>
+	<string>Load_XML_Documents</string>
+</dict>
+</plist>

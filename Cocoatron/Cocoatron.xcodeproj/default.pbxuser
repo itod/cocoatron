@@ -1,0 +1,36 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 = {
+		activeBuildStyle = 014CEA420018CDE011CA2923;
+		activeTarget = 65081C2D067A9A0C006247A1;
+		codeSenseManager = 658A2DD0067AB96600421F51;
+		sourceControlManager = 658A2DCF067AB96600421F51;
+		userBuildSettings = {
+		};
+	};
+	65081C2D067A9A0C006247A1 = {
+		activeExec = 0;
+	};
+	658A2DCF067AB96600421F51 = {
+		fallbackIsa = XCSourceControlManager;
+		isa = PBXSourceControlManager;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	658A2DD0067AB96600421F51 = {
+		indexTemplatePath = "";
+		isa = PBXCodeSenseManager;
+		usesDefaults = 1;
+		wantsCodeCompletion = 1;
+		wantsCodeCompletionAutoPopup = 0;
+		wantsCodeCompletionAutoSuggestions = 1;
+		wantsCodeCompletionCaseSensitivity = 1;
+		wantsCodeCompletionListAlways = 0;
+		wantsCodeCompletionOnlyMatchingItems = 1;
+		wantsCodeCompletionParametersIncluded = 1;
+		wantsCodeCompletionPlaceholdersInserted = 1;
+		wantsCodeCompletionTabCompletes = 1;
+		wantsIndex = 1;
+	};
+}

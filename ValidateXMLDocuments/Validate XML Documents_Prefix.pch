@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Validate XML Documents' target in the 'Validate XML Documents' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

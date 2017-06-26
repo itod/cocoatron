@@ -1,0 +1,48 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {completed = id; run = id; runNext = id; stop = id; }; 
+            CLASS = AMAction; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = AMAppleScriptAction; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"_script" = NSAppleScript; }; 
+            SUPERCLASS = AMBundleAction; 
+        }, 
+        {
+            CLASS = AMBundleAction; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {view = NSView; }; 
+            SUPERCLASS = AMAction; 
+        }, 
+        {
+            CLASS = CocoatronAction; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {console = NSTextView; }; 
+            SUPERCLASS = AMBundleAction; 
+        }, 
+        {
+            ACTIONS = {
+                handleTableClicked = id; 
+                handleTextChanged = id; 
+                insertParam = id; 
+                removeParam = id; 
+            }; 
+            CLASS = CocoatronParamsTableAction; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {paramsTable = NSTableView; }; 
+            SUPERCLASS = CocoatronAction; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {browse = id; }; 
+            CLASS = "Query_XML_Documents"; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = CocoatronParamsTableAction; 
+        }
+    ); 
+    IBVersion = 1; 
+}
